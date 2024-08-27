@@ -1,0 +1,39 @@
+.navbar{
+    background-color: #1E202B;
+}
+.logo span{
+    color: white;
+
+}
+.header{
+
+    background-image: url(../imgs/banner.png);
+}
+.submit{
+    position: relative;
+    right: 87px;  
+}
+
+/* first card */
+.degree{
+    font-size: 6.4285714286rem;
+    margin-right: 30px;
+
+}
+.card{
+
+    background-color: #323544;
+  position: relative;
+  bottom: 100px;
+  height: 350px;
+}
+.cards{
+    background-color: #1E202B;
+}
+.tittle{
+    background-color: #2D303D;
+}
+/* footer */
+.footer{
+   background-color: #262936;
+}

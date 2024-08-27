@@ -1,0 +1,177 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+     
+    </head>
+    <body>
+<!-- navbar -->
+ <div class=" navbar navbar-expand-lg">
+    <div class="container py-4 ">
+        <div class="logo">
+            <img src="imgs/logo.png" alt="">
+            <span >weather</span>
+        </div>
+        
+.
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">News</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Live Cameras</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Photos</button>
+            </li>
+          
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
+            </li>
+          
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">...</div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">...</div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">...</div>
+    
+    </div>
+ </div>
+ </div>
+ <!-- header -->
+  <div class="header h-50">
+    <nav class=" ">
+        <div class="container-fluid text-white ">
+          <form class="d-flex " role="search">
+            <input class="form-control me-2 rounded-bottom-pill rounded-top-pill p-2 mt-5" type="search" id="searchLocation"  placeholder="find your location" aria-label="Search">
+            <button class=" submit btn btn-info rounded-bottom-pill rounded-top-pill py-1 px-4 mt-5" type="submit">find</button>
+          </form>
+        </div>
+      </nav>
+  </div>
+
+
+<div class="cards ">
+   <div class="container ">
+    <div class="row align-items-center">
+      <!-- first card  -->
+       <div class="col-md-4 g-0">
+        <div class="card text-white ">
+          <div class="tittle  d-flex justify-content-between align-items-center ">
+            <span id="TodayWeek">Tuesday</span>
+            <span id="Day">25June</span> 
+          </div>
+      <div class="pt-3">
+        <span id="city">cairo</span>
+      </div>
+         <div>
+         <span id="degree" class="degree fw-bold">30.2 C</span>
+          <img src="imgs/113.png" alt="">
+          </div>
+  <div class="conditon">
+  <span id="conditon">sunny</span>
+   </div>
+<div id="todayimage" class="icons d-flex justify-content-between align-items-center">
+  <div >
+    <img src="imgs/icon-umberella.png" alt="">
+    <span id="humidity">20%</span>
+  </div>
+  <div >
+    <img src="imgs/icon-wind.png" alt="">
+    <span id="wind">18km/h</span>
+  </div>
+  <div >
+    <img src="imgs/icon-compass.png" alt="">
+    <span id="dir">East</span>
+  </div>
+</div>
+        </div>
+       </div>
+
+       <!-- second card -->
+     <div class="col-md-4 g-0">
+ <div class="card text-center text-white ">
+     <div class="tittle ">
+         <span id="tomorrow">Wednesday</span>
+       </div>
+  <div class="">
+    <img id="tomicon" class="pt-5" src="imgs/113.png" alt="">
+    <span id="max"class="d-block p-2">41.3</span>
+    <span id="min">24.8</span>
+  </div>
+  <div class="conditon">
+    <span id="tomConditon">sunny</span>
+     </div>
+           </div>
+        </div>
+     
+        <!-- third card -->   
+      <div class="col-md-4 g-0">
+            <div class="card text-center text-white">
+            <div class="tittle  ">
+              <span id="aft">Thursday</span>
+            </div>
+            <div class="">
+              <img id="aftIcon" class="pt-5" src="imgs/113.png" alt="">
+              <span id="maxaft" class="d-block p-2">41.3</span>
+              <span id="minaft">24.8</span>
+            </div>
+            <div class="conditon">
+              <span id="aftConditon" class="pb-4">sunny</span>
+               </div>
+                     </div>
+                  </div>
+          </div>
+         </div>
+       
+    </div>
+    
+<!-- footer -->
+ <div class="footer">
+  <div class="container text-white">
+    <div class="row">
+      <div class="col-md-8">
+        <form class="d-flex " role="search">
+          <input class="form-control me-2 rounded-bottom-pill rounded-top-pill p-2 mt-5" type="search" placeholder="Enter your email to subscribe.." aria-label="Search">
+          <button class=" submit btn btn-info rounded-bottom-pill rounded-top-pill py-1 px-4 mt-5" type="submit">submit</button>
+        </form> 
+    </div>
+   
+  <div class="col-md-3">
+  <div class="icon mt-5">
+    <i class="ps-4 fa-brands fa-facebook fs-3"></i>
+    <i class=" ps-4 fa-brands fa-twitter fs-3"></i>
+    <i class=" ps-4 fa-brands fa-google-plus-g fs-3"></i>
+    <i class="ps-4 fa-brands fa-pinterest fs-3"></i>
+  
+  </div>
+  </div>
+  <p class="mt-3">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+   </div>
+   </div>
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="js/bootstrap.bundle.min.js"> </script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
